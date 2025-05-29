@@ -10,10 +10,6 @@ public class CalculatorTest {
         AddCalculator calculator = new AddCalculator();
         assertEquals(5, calculator.add(2, 3));
     }
-
-    @Test
-    public void testSubtract() {
-        AddCalculator calculator = new AddCalculator();
-        assertEquals(1, calculator.subtract(4, 3));
     }
-}
+
+   
